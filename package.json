@@ -1,0 +1,40 @@
+{
+  "author": "Bryn Dyment <bryndyment@gmail.com>",
+  "description": "React hook providing an element DOM reference via a ref callback.",
+  "license": "MIT",
+  "name": "@hoologic/use-element",
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/hoologic/use-element/issues"
+  },
+  "devDependencies": {
+    "@types/react": ">=16.8",
+    "typescript": "5.7.3"
+  },
+  "files": [
+    "index.d.ts",
+    "index.d.ts.map",
+    "index.js",
+    "index.js.map"
+  ],
+  "homepage": "https://github.com/hoologic/use-element",
+  "keywords": [
+    "hook",
+    "React",
+    "useElement"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoologic/use-element.git"
+  },
+  "scripts": {
+    "build": "pnpm clean &&tsc",
+    "clean": "rm index.{d.ts,d.ts.map,js,js.map}"
+  }
+}
