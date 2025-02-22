@@ -4,6 +4,7 @@ React hook providing a typed element DOM reference via a ref callback.
 
 ## Usage
 
+```tsx
 import { useElement } from '@hoologic/use-element'
 import { useEffect } from 'react'
 
@@ -20,3 +21,4 @@ const Component = () => {
 
   return <div ref={refCallback}>Content</div>
 }
+```
