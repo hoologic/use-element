@@ -3,7 +3,7 @@
   "description": "React hook providing an element DOM reference via a ref callback.",
   "license": "MIT",
   "name": "@hoologic/use-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bugs": {
     "url": "https://github.com/hoologic/use-element/issues"
   },
@@ -34,7 +34,7 @@
     "url": "git+https://github.com/hoologic/use-element.git"
   },
   "scripts": {
-    "build": "pnpm clean &&tsc",
+    "build": "pnpm clean && tsc",
     "clean": "rm index.{d.ts,d.ts.map,js,js.map}"
   }
 }
